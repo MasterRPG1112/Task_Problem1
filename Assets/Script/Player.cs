@@ -4,8 +4,8 @@ public class Player : MonoBehaviour
 {
     float moveX;
     float moveZ;
-
     bool jump;
+
     bool isJump;
 
     public float Speed;
@@ -15,10 +15,11 @@ public class Player : MonoBehaviour
 
     Rigidbody rigid;
 
-    void Awake()
+    private void Awake()
     {
         rigid = GetComponent<Rigidbody>();
     }
+
     void Update()
     {
         Move();
@@ -38,7 +39,6 @@ public class Player : MonoBehaviour
 
         transform.position += moveVec * Speed * Time.deltaTime;
     }
-
     void Jump()
     {
         if (jump && !isJump)
@@ -50,6 +50,7 @@ public class Player : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Floor")
+
         {
             isJump = false;
         }
