@@ -177,6 +177,10 @@ PrefabInstance:
       value: Street_4Lane (64)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -244,6 +248,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -352,6 +360,10 @@ PrefabInstance:
       value: Street_4Lane (88)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -434,6 +446,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e09dded633b5ac2489121add487268f4, type: 3}
       propertyPath: m_Name
       value: Street_Curve_4LaneShort
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e09dded633b5ac2489121add487268f4, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e09dded633b5ac2489121add487268f4, type: 3}
       propertyPath: m_TagString
@@ -658,6 +674,10 @@ PrefabInstance:
       value: Street_4Lane (36)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -674,6 +694,70 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
   m_PrefabInstance: {fileID: 106476555}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &106490235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 106490237}
+  - component: {fileID: 106490236}
+  m_Layer: 0
+  m_Name: NavMesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &106490236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106490235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshSurface
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 8
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: bdc80dfadd445434c8eacbb37b58e50f, type: 2}
+  m_BuildHeightMesh: 0
+--- !u!4 &106490237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106490235}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 138.5298, y: 16.5, z: 6.60324}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &127529265 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
@@ -730,6 +814,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -801,6 +889,10 @@ PrefabInstance:
       value: Street_4Lane (91)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -868,6 +960,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e09dded633b5ac2489121add487268f4, type: 3}
       propertyPath: m_Name
       value: Street_Curve_4LaneShort (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e09dded633b5ac2489121add487268f4, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e09dded633b5ac2489121add487268f4, type: 3}
       propertyPath: m_TagString
@@ -949,6 +1045,10 @@ PrefabInstance:
       value: Street_4Lane (104)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -970,6 +1070,70 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: af0ad04595d1d544c851c8e30ec92a50, type: 3}
   m_PrefabInstance: {fileID: 495666814}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &154318966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 154318968}
+  - component: {fileID: 154318967}
+  m_Layer: 0
+  m_Name: ZombieSpawnerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &154318967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154318966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d07cf7a187cafb49bab4c4b38626e66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ZombieSpawner
+  player: {fileID: 1901850783}
+  zombiePrefab: {fileID: 1508318671197484464, guid: 7c9336ac300397b4397fb77322c1922d, type: 3}
+  roadLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  minSpawnDistance: 5
+  maxSpawnDistance: 15
+  spawnInterval: 3
+  maxZombieCount: 20
+--- !u!4 &154318968
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154318966}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 173.51897, y: 24.51102, z: 58.80788}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &157904487 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 753600501610019706, guid: 250bf85b885d1bf42bb053ed290e4c88, type: 3}
+  m_PrefabInstance: {fileID: 951887248}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f646d3f7f5935440bc73731c67d870e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemSlot
 --- !u!1001 &161418191
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1021,6 +1185,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -1198,6 +1366,10 @@ PrefabInstance:
       value: Street_4Lane (59)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -1275,6 +1447,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -1359,6 +1535,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -1814,6 +1994,10 @@ PrefabInstance:
       value: Street_4Lane
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -1883,6 +2067,10 @@ PrefabInstance:
       value: Street_4Lane (93)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -1899,6 +2087,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
   m_PrefabInstance: {fileID: 275931390}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &292151916 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7388169766943415109, guid: 250bf85b885d1bf42bb053ed290e4c88, type: 3}
+  m_PrefabInstance: {fileID: 951887248}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f646d3f7f5935440bc73731c67d870e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemSlot
 --- !u!1 &298119111 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
@@ -2063,6 +2262,10 @@ PrefabInstance:
       value: Street_4Lane (60)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -2087,9 +2290,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4828279265622617152, guid: c42ec94ca32c9024c90a2d1c48dcc864, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828279265622617152, guid: c42ec94ca32c9024c90a2d1c48dcc864, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.38
+      objectReference: {fileID: 0}
     - target: {fileID: 4841891952872038472, guid: c42ec94ca32c9024c90a2d1c48dcc864, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 140.47813
+      value: 133.57
       objectReference: {fileID: 0}
     - target: {fileID: 4841891952872038472, guid: c42ec94ca32c9024c90a2d1c48dcc864, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2097,11 +2308,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4841891952872038472, guid: c42ec94ca32c9024c90a2d1c48dcc864, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.9428124
+      value: 10.14
       objectReference: {fileID: 0}
     - target: {fileID: 4841891952872038472, guid: c42ec94ca32c9024c90a2d1c48dcc864, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9399747
+      value: -0.40852195
       objectReference: {fileID: 0}
     - target: {fileID: 4841891952872038472, guid: c42ec94ca32c9024c90a2d1c48dcc864, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2109,7 +2320,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4841891952872038472, guid: c42ec94ca32c9024c90a2d1c48dcc864, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.34124404
+      value: -0.9127485
       objectReference: {fileID: 0}
     - target: {fileID: 4841891952872038472, guid: c42ec94ca32c9024c90a2d1c48dcc864, type: 3}
       propertyPath: m_LocalRotation.z
@@ -2121,7 +2332,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4841891952872038472, guid: c42ec94ca32c9024c90a2d1c48dcc864, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -39.905
+      value: -228.224
       objectReference: {fileID: 0}
     - target: {fileID: 4841891952872038472, guid: c42ec94ca32c9024c90a2d1c48dcc864, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -2296,6 +2507,10 @@ PrefabInstance:
       value: Street_4Lane (82)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -2434,6 +2649,10 @@ PrefabInstance:
       value: Street_TIntersection (4)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: da564c44b8614ee4d891d4ee995d9fb5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da564c44b8614ee4d891d4ee995d9fb5, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -2501,6 +2720,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -2621,6 +2844,10 @@ PrefabInstance:
       value: Street_4Lane (49)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -2690,6 +2917,10 @@ PrefabInstance:
       value: Street_4Lane (39)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -2757,6 +2988,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (115)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -2848,6 +3083,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -3236,6 +3475,10 @@ PrefabInstance:
       value: Street_4Lane (3)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -3315,6 +3558,10 @@ PrefabInstance:
       value: Street_4Lane (103)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -3387,6 +3634,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (114)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -3586,6 +3837,10 @@ PrefabInstance:
       value: Street_4Lane (23)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -3653,6 +3908,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (111)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -3724,6 +3983,10 @@ PrefabInstance:
       value: Street_TIntersection (5)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: da564c44b8614ee4d891d4ee995d9fb5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da564c44b8614ee4d891d4ee995d9fb5, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -3791,6 +4054,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -4157,6 +4424,10 @@ PrefabInstance:
       value: Street_4Lane (58)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -4251,6 +4522,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e09dded633b5ac2489121add487268f4, type: 3}
       propertyPath: m_Name
       value: Street_Curve_4LaneShort (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e09dded633b5ac2489121add487268f4, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e09dded633b5ac2489121add487268f4, type: 3}
       propertyPath: m_TagString
@@ -4492,6 +4767,10 @@ PrefabInstance:
       value: Street_4Lane (86)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -4561,6 +4840,10 @@ PrefabInstance:
       value: Street_4Lane (47)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -4628,6 +4911,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -4726,6 +5013,10 @@ PrefabInstance:
       value: Street_4Lane (97)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -4815,6 +5106,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -4943,6 +5238,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -5086,6 +5385,10 @@ PrefabInstance:
       value: Street_4Lane (5)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -5180,6 +5483,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -5448,6 +5755,10 @@ PrefabInstance:
       value: Street_4Lane (73)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -5520,6 +5831,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -5655,6 +5970,10 @@ PrefabInstance:
       value: Street_4Lane (29)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -5751,6 +6070,10 @@ PrefabInstance:
       value: Street_4Lane (79)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -5823,6 +6146,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e09dded633b5ac2489121add487268f4, type: 3}
       propertyPath: m_Name
       value: Street_Curve_4LaneShort (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e09dded633b5ac2489121add487268f4, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e09dded633b5ac2489121add487268f4, type: 3}
       propertyPath: m_TagString
@@ -5963,6 +6290,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4cdb85c08a23d9945a17290022cf260f, type: 3}
       propertyPath: m_Name
       value: Street_4Lane_noSidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4cdb85c08a23d9945a17290022cf260f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4cdb85c08a23d9945a17290022cf260f, type: 3}
       propertyPath: m_TagString
@@ -6302,6 +6633,10 @@ PrefabInstance:
       value: Street_4Lane (26)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -6473,6 +6808,17 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8648095944504109901, guid: da564c44b8614ee4d891d4ee995d9fb5, type: 3}
+--- !u!114 &905169730 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2301239583954958781, guid: 250bf85b885d1bf42bb053ed290e4c88, type: 3}
+  m_PrefabInstance: {fileID: 951887248}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f646d3f7f5935440bc73731c67d870e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemSlot
 --- !u!1001 &913670462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6691,6 +7037,10 @@ PrefabInstance:
       value: Street_4Lane (41)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -6851,6 +7201,10 @@ PrefabInstance:
       value: Street_TIntersection (3)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: da564c44b8614ee4d891d4ee995d9fb5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da564c44b8614ee4d891d4ee995d9fb5, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -6918,6 +7272,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -7313,6 +7671,10 @@ PrefabInstance:
       value: Street_4Lane (37)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -7398,6 +7760,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
   m_PrefabInstance: {fileID: 1522844803}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1011568106 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1922380246899255964, guid: 250bf85b885d1bf42bb053ed290e4c88, type: 3}
+  m_PrefabInstance: {fileID: 951887248}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f646d3f7f5935440bc73731c67d870e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemSlot
 --- !u!1 &1014227523 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e570e9bb229f62547aead8ec46454e95, type: 3}
@@ -7476,6 +7849,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -7621,6 +7998,10 @@ PrefabInstance:
       value: Street_4Lane (65)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -7669,6 +8050,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
   m_PrefabInstance: {fileID: 1669777144}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1039710260 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4370350248113651185, guid: 250bf85b885d1bf42bb053ed290e4c88, type: 3}
+  m_PrefabInstance: {fileID: 951887248}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f646d3f7f5935440bc73731c67d870e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemSlot
 --- !u!1 &1045834542
 GameObject:
   m_ObjectHideFlags: 0
@@ -7855,6 +8247,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -8140,6 +8536,10 @@ PrefabInstance:
       value: Street_4Lane (48)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -8256,6 +8656,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -8401,6 +8805,10 @@ PrefabInstance:
       value: Street_4Lane (46)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -8507,6 +8915,10 @@ PrefabInstance:
       value: Street_4Lane (31)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -8545,6 +8957,17 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 421067978097382794, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+--- !u!114 &1118403953 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 565561754453316770, guid: 250bf85b885d1bf42bb053ed290e4c88, type: 3}
+  m_PrefabInstance: {fileID: 951887248}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f646d3f7f5935440bc73731c67d870e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemSlot
 --- !u!1001 &1118846000
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8596,6 +9019,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0d6ed2d59e668a419d613d84073b03e, type: 3}
       propertyPath: m_Name
       value: Street_4WayIntersection
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0d6ed2d59e668a419d613d84073b03e, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d0d6ed2d59e668a419d613d84073b03e, type: 3}
       propertyPath: m_TagString
@@ -8741,6 +9168,10 @@ PrefabInstance:
       value: Street_4Lane (83)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -8808,6 +9239,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -8938,6 +9373,10 @@ PrefabInstance:
       value: Street_4Lane (101)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -8986,6 +9425,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6526949051726076615, guid: 250bf85b885d1bf42bb053ed290e4c88, type: 3}
   m_PrefabInstance: {fileID: 951887248}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1171782374 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 165817598761915250, guid: 250bf85b885d1bf42bb053ed290e4c88, type: 3}
+  m_PrefabInstance: {fileID: 951887248}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171782372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea2df406898426b4fa654355287f8bdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShopManager
 --- !u!1001 &1173339045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9037,6 +9487,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -9130,6 +9584,10 @@ PrefabInstance:
       value: Street_4Lane (61)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -9221,6 +9679,10 @@ PrefabInstance:
       value: Street_4Lane (30)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -9288,6 +9750,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -9379,6 +9845,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -9595,6 +10065,10 @@ PrefabInstance:
       value: Street_4Lane (38)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -9662,6 +10136,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (89)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -9753,6 +10231,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -9957,6 +10439,10 @@ PrefabInstance:
       value: Street_4Lane (22)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -10134,6 +10620,10 @@ PrefabInstance:
       value: Street_4Lane (95)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -10225,6 +10715,10 @@ PrefabInstance:
       value: Street_4Lane (109)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -10292,6 +10786,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -10410,6 +10908,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -10700,6 +11202,10 @@ PrefabInstance:
       value: Street_4Lane (56)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -10743,6 +11249,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 75335fa77e46dc44c9d1778e51f36189, type: 3}
   m_PrefabInstance: {fileID: 1718844357}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1395754015 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6040237984861045750, guid: 250bf85b885d1bf42bb053ed290e4c88, type: 3}
+  m_PrefabInstance: {fileID: 951887248}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f646d3f7f5935440bc73731c67d870e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemSlot
 --- !u!1001 &1412162694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10794,6 +11311,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -10885,8 +11406,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1417843804}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.10969, y: -0, z: 0.79784}
+  m_LocalRotation: {x: -0, y: -0.9999579, z: -0, w: -0.009170917}
+  m_LocalPosition: {x: 271.8, y: 0, z: 15.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11055,7 +11576,7 @@ Transform:
   - {fileID: 810950702}
   - {fileID: 1627155046}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -181.051, z: 0}
 --- !u!1001 &1423285542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11107,6 +11628,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -11235,6 +11760,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -11495,6 +12024,10 @@ PrefabInstance:
       value: Street_4Lane (42)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -11584,6 +12117,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -11682,6 +12219,10 @@ PrefabInstance:
       value: Street_4Lane (112)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -11771,6 +12312,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -12132,6 +12677,10 @@ PrefabInstance:
       value: Street_4Lane (53)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -12381,6 +12930,10 @@ PrefabInstance:
       value: Street_Curve_4LaneShort (4)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e09dded633b5ac2489121add487268f4, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e09dded633b5ac2489121add487268f4, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -12524,6 +13077,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -12706,6 +13263,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -12989,6 +13550,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -13387,6 +13952,10 @@ PrefabInstance:
       value: Street_4Lane (50)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -13542,6 +14111,10 @@ PrefabInstance:
       value: Street_4Lane (51)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -13611,6 +14184,10 @@ PrefabInstance:
       value: Street_4Lane (13)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -13627,6 +14204,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
   m_PrefabInstance: {fileID: 1758599828}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1764286801 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4453349466852768456, guid: 250bf85b885d1bf42bb053ed290e4c88, type: 3}
+  m_PrefabInstance: {fileID: 951887248}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f646d3f7f5935440bc73731c67d870e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemSlot
 --- !u!1 &1765290465
 GameObject:
   m_ObjectHideFlags: 0
@@ -13817,6 +14405,10 @@ PrefabInstance:
       value: Street_4Lane (66)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -13906,6 +14498,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -14095,6 +14691,10 @@ PrefabInstance:
       value: Street_4Lane (25)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -14184,6 +14784,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -14302,6 +14906,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -14599,6 +15207,10 @@ PrefabInstance:
       value: Street_4Lane (80)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -14776,6 +15388,10 @@ PrefabInstance:
       value: Street_4Lane (99)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -14925,19 +15541,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5644030507746144681, guid: ce2548dbc81851b488075bf19a61322a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.04019515
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5644030507746144681, guid: ce2548dbc81851b488075bf19a61322a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5644030507746144681, guid: ce2548dbc81851b488075bf19a61322a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9991918
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5644030507746144681, guid: ce2548dbc81851b488075bf19a61322a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5644030507746144681, guid: ce2548dbc81851b488075bf19a61322a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14945,7 +15561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5644030507746144681, guid: ce2548dbc81851b488075bf19a61322a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 175.393
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5644030507746144681, guid: ce2548dbc81851b488075bf19a61322a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -14960,9 +15576,21 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4978816779655408403, guid: ce2548dbc81851b488075bf19a61322a, type: 3}
       insertIndex: 1
-      addedObject: {fileID: 1901850782}
+      addedObject: {fileID: 1901850792}
     - targetCorrespondingSourceObject: {fileID: 4978816779655408403, guid: ce2548dbc81851b488075bf19a61322a, type: 3}
       insertIndex: 2
+      addedObject: {fileID: 1901850793}
+    - targetCorrespondingSourceObject: {fileID: 4978816779655408403, guid: ce2548dbc81851b488075bf19a61322a, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 1901850782}
+    - targetCorrespondingSourceObject: {fileID: 4978816779655408403, guid: ce2548dbc81851b488075bf19a61322a, type: 3}
+      insertIndex: 4
+      addedObject: {fileID: 1901850791}
+    - targetCorrespondingSourceObject: {fileID: 4978816779655408403, guid: ce2548dbc81851b488075bf19a61322a, type: 3}
+      insertIndex: 5
+      addedObject: {fileID: 1901850790}
+    - targetCorrespondingSourceObject: {fileID: 4978816779655408403, guid: ce2548dbc81851b488075bf19a61322a, type: 3}
+      insertIndex: 6
       addedObject: {fileID: 1901850779}
     - targetCorrespondingSourceObject: {fileID: 4978816779655408403, guid: ce2548dbc81851b488075bf19a61322a, type: 3}
       insertIndex: -1
@@ -14985,7 +15613,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1901850778}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d52bb07e8ee8924dbe88361f79a7b8b, type: 3}
+  m_Script: {fileID: 11500000, guid: d402bb0e0278ee443ac5a4e0b571ef65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
   Speed: 5
@@ -15056,8 +15684,80 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
+--- !u!114 &1901850790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901850778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c090d1f0073e6024e8c8c5ea132ce5c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemSwitch
+  shopManager: {fileID: 1171782374}
+  itemSlots:
+  - {fileID: 1118403953}
+  - {fileID: 1764286801}
+  - {fileID: 292151916}
+  - {fileID: 1395754015}
+  - {fileID: 905169730}
+  - {fileID: 1039710260}
+  - {fileID: 157904487}
+  - {fileID: 1011568106}
+  currentIndex: -1
+  currentEquippedItem:
+    itemID: 
+    itemName: 
+    price: 0
+    description: 
+    isConsumable: 0
+    isPurchased: 0
+    itemQuantity: 0
+--- !u!114 &1901850791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901850778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e003d9d154d2949b7756a555719fff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDump
+  shopManager: {fileID: 1171782374}
+  itemSwitch: {fileID: 1901850790}
+--- !u!114 &1901850792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901850778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 811f6a09d5b667d41aa138a9a27a2c18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDummy
+  isDead: 0
+--- !u!114 &1901850793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901850778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c6778a150f1cf24187593f396997319, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ZombieBuff
+  totalKillCount: 0
+  noKillTimer: 0
 --- !u!1001 &1907210000
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15109,6 +15809,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -15256,6 +15960,10 @@ PrefabInstance:
       value: Street_4Lane (12)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -15347,6 +16055,10 @@ PrefabInstance:
       value: Street_4Lane (92)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -15436,6 +16148,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -15656,6 +16372,10 @@ PrefabInstance:
       value: Street_4Lane (11)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -15836,6 +16556,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e09dded633b5ac2489121add487268f4, type: 3}
       propertyPath: m_Name
       value: Street_Curve_4LaneShort (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e09dded633b5ac2489121add487268f4, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e09dded633b5ac2489121add487268f4, type: 3}
       propertyPath: m_TagString
@@ -16025,6 +16749,10 @@ PrefabInstance:
       value: Street_4Lane (9)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -16116,6 +16844,10 @@ PrefabInstance:
       value: Street_4Lane (85)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -16205,6 +16937,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -16593,6 +17329,10 @@ PrefabInstance:
       value: Street_TIntersection (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: da564c44b8614ee4d891d4ee995d9fb5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da564c44b8614ee4d891d4ee995d9fb5, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -16684,6 +17424,10 @@ PrefabInstance:
       value: Street_4Lane (84)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -16773,6 +17517,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -16957,6 +17705,10 @@ PrefabInstance:
       value: Street_4Lane (105)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -17075,6 +17827,10 @@ PrefabInstance:
       value: Street_4Lane (74)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -17164,6 +17920,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (108)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -17493,6 +18253,10 @@ PrefabInstance:
       value: Street_4Lane (94)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -17582,6 +18346,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_Name
       value: Street_4Lane (102)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
@@ -17729,6 +18497,10 @@ PrefabInstance:
       value: Street_4Lane (32)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 881620ffecf9fcc45aca3f660a4013ef, type: 3}
       propertyPath: m_TagString
       value: Floor
       objectReference: {fileID: 0}
@@ -17778,3 +18550,5 @@ SceneRoots:
   - {fileID: 1901850777}
   - {fileID: 951887248}
   - {fileID: 1549762280}
+  - {fileID: 154318968}
+  - {fileID: 106490237}

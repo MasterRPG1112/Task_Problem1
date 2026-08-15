@@ -17,6 +17,20 @@ public class ShopManager : MonoBehaviour
         ClearSelection();
     }
 
+    public bool HasItem(Item item)
+    {
+        if (item == null) return false;
+
+        if (item.isConsumable)
+        {
+            return item.itemQuantity > 0;
+        }
+        else
+        {
+            return item.isPurchased;
+        }
+    }
+
     public void SelectItem(Item item, ItemSlot slot)
     {
         selectedItem = item;
